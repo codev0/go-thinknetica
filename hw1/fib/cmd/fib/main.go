@@ -15,7 +15,6 @@ func main() {
 
 	if *n > MaxFibN {
 		fmt.Printf("Sorry, you cannot pass values more than: %v\n", MaxFibN)
-
 		return
 	}
 
